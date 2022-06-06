@@ -322,6 +322,10 @@ body {
     float: right;
 }
 
+.customers img{
+    object-fit: cover;
+}
+
 .customer-review {
     box-shadow: -6px 5px 6px 4px rgb(0 0 22 / 22%);
     background: #fff;
@@ -421,10 +425,6 @@ footer a:hover {
 
     .about-get-rider {
         width: 25%;
-    }
-
-    .customer-image {
-        width: 100%;
     }
 
     .customer-review img {
