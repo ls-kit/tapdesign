@@ -1,0 +1,435 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.navbar {
+    background: #fff !important;
+}
+
+.navbar-brand img {
+    width: 130px;
+    height: 65px;
+    object-fit: cover;
+}
+
+.btn-hotline {
+    background-color: #ff9b23;
+    color: #fff;
+    border-radius: 2px;
+    padding: 10px 28px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 525px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+}
+
+.hero:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 525px;
+    background: rgba(100, 61, 28, 0.6);
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.5em rgba(0, 0, 0, 0.5);
+    margin: 0;
+    position: absolute;
+}
+
+.hero-subtitle {
+    text-transform: uppercase;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: xxx-large;
+}
+
+.hero-text .button {
+    display: inline-block;
+    padding: 10px 25px;
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 1px;
+    margin-top: 30px;
+}
+
+.hero-text .button:hover {
+    background-color: #ff9b23;
+    color: white;
+}
+
+.contact-hero {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-hero-image {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-hero:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 400px;
+    background: rgba(100, 61, 28, 0.6);
+}
+
+.contact-hero-text {
+    color: white;
+    text-shadow: 0.1em 0.1em 0.5em rgba(0, 0, 0, 0.5);
+    margin-left: 18%;
+    position: absolute;
+}
+
+.contact-hero-text hr {
+    width: 15%;
+    height: 2px;
+    color: #fff;
+    background: #fff;
+    margin-top: 25px;
+    opacity: 1;
+}
+
+.contact-hero-subtitle {
+    font-size: 13px;
+}
+
+.contact-hero-title {
+    font-weight: 900;
+    font-size: xxx-large;
+}
+
+.wave-shape {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: #f1faff;
+    border-radius: 0 0 50% 50%;
+    margin-bottom: 50px;
+}
+
+.select-place {
+    align-items: baseline;
+}
+
+.select-place h2 {
+    font-weight: bold;
+}
+
+.select-place a {
+    font-size: small;
+    color: #000;
+}
+
+.custom-card {
+    border-radius: 0px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: rgb(0 0 0 / 50%) 0px 3px 10px -6px;
+}
+
+.custom-card .custom-card-body {
+    padding: 10px;
+}
+
+.custom-card-body .rent a {
+    text-decoration: none;
+    color: #fff;
+    background: #ff9b23;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.custom-card-body .rent::after {
+    content: ">";
+    color: #000;
+    margin-left: 5%;
+}
+
+.polaroid {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+.polaroid .container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.drivers-paraloid {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 25px;
+    box-shadow: rgb(0 0 0 / 50%) 0px 0px 10px -6px
+}
+
+.drivers-paraloid:hover {
+    background-color: white;
+    margin-bottom: 25px;
+    box-shadow: rgb(0 0 0 / 50%) 0px 2px 15px -4px
+}
+
+.driver-card-name {
+    border-bottom: 1px solid #ebe1e1;
+    margin-bottom: 10px;
+}
+
+.date-rate {
+    font-size: 12px;
+}
+
+.date-rate span {
+    font-size: large;
+    font-weight: bolder;
+    color: #ff9b23;
+}
+
+.ride-rules {
+    font-size: 12px;
+    text-align: start;
+    width: 100%;
+    display: flex;
+    vertical-align: middle;
+}
+
+.ride-rules .icon {
+    width: 20%;
+    color: #c3c0c0;
+}
+
+.about-polaroid {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.about-car {
+    width: 100%;
+}
+
+.home-location {
+    position: relative;
+    width: 100%;
+    height: 525px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-location-image {
+    width: 100%;
+    height: 100%;
+}
+
+.home-location:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 525px;
+    background: rgba(63, 37, 15, 0.6);
+}
+
+.home-location-text {
+    color: white;
+    text-shadow: 0.1em 0.1em 0.5em rgba(0, 0, 0, 0.5);
+    margin: 0;
+    position: absolute;
+}
+
+.home-location-subtitle {
+    font-weight: bold;
+}
+
+.home-location-subtitle span {
+    color: #ff9b23;
+}
+
+.home-location-details {
+    font-size: 14px;
+}
+
+.home-location-details p {
+    font-size: 13px;
+    text-align: justify;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.home-location-title {
+    font-weight: 900;
+    font-size: xxx-large;
+}
+
+.location-counters {
+    text-align: center;
+    font-size: 12px;
+    align-self: self-end;
+    display: flex;
+    justify-content: center;
+}
+
+.location-top-padding {
+    padding-top: 10px;
+}
+
+.location-counters span {
+    font-size: 30px;
+    color: #ff9b23;
+}
+
+.customer-review img {
+    float: right;
+}
+
+.customer-review {
+    box-shadow: -6px 5px 6px 4px rgb(0 0 22 / 22%);
+    background: #fff;
+    padding: 25px 0;
+    text-align: left;
+    font-style: italic;
+    font-family: auto;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: -30px;
+}
+
+.customer-name::before {
+    content: "- ";
+    color: #ff9b23;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.theme-yellow{
+    color: #ff9b23;
+}
+
+.bg-sky-blue {
+    background: #f1faff;
+}
+
+footer a {
+    color: #ff9b23;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #e49b41;
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        padding: 0 10% !important;
+    }
+
+    .best-driver-title {
+        margin: auto;
+        padding: 20px 90px;
+    }
+
+    .about-car {
+        padding-top: 10%;
+        width: 476px;
+    }
+
+    .home-location,
+    .home-location:before {
+        height: 300px;
+    }
+
+    .extra-padding {
+        padding: 0 10%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .polaroid img {
+        width: 25%;
+    }
+
+    .about-get-rider {
+        width: 25%;
+    }
+
+    .customer-image {
+        width: 100%;
+    }
+
+    .customer-review img {
+        float: left;
+    }
+
+    .customer-review {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 0px 10px 10px -5px rgb(0 0 22 / 22%);
+    }
+
+    .customers {
+        display: block !important;
+    }
+
+    .location-top-padding {
+        margin-left: 15%;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .bgimage {
+        background-size: 165%;
+        height: 330px;
+    }
+
+    .wave-shape {
+        height: 400px;
+        border-radius: 0 0 20% 20%;
+    }
+
+    .contact-hero-text{
+        margin: 0 8%;
+    }
+}
